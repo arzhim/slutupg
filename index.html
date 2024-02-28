@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Regina Rehab</title>
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    "
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -15,10 +25,24 @@
       </nav>
     </header>
     <main>
-      <section></section>
+      <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="img/portratt.jpg" alt="" /></li>
+            <li class="splide__slide">
+              <img src="img/kvinnohälsa.jpg" alt="" />
+            </li>
+            <li class="splide__slide"><img src="img/portratt.jpg" alt="" /></li>
+            <li class="splide__slide">
+              <img src="img/kvinnohälsa.jpg" alt="" />
+            </li>
+            <li class="splide__slide"><img src="img/portratt.jpg" alt="" /></li>
+          </ul>
+        </div>
+      </section>
       <section>
         <section>
-          <img src="" alt="" />
+          <img src="img/portratt.jpg" alt="Portrait of Regina" />
           <h2>Om mig</h2>
           <p>
             Leg. Fysioterapeut, MSc inom idrottsvetenskap Jag inriktar mig på
@@ -32,7 +56,7 @@
           </p>
         </section>
         <section>
-          <img src="" alt="" />
+          <img src="img/kvinnohälsa.jpg" alt="" />
           <h2>Sport Rehab</h2>
           <p>
             Jag hjälper dig att bygga upp din muskulatur efter skada så att du
@@ -41,7 +65,7 @@
           <button>BOKA</button>
         </section>
         <section>
-          <img src="" alt="" />
+          <img src="img/kvinnohälsa.jpg" alt="pregnant-woman" />
           <h2>Kvinnohälsa</h2>
           <p>
             Vill du ha stöd med din träning under och efter din graviditet. Att
@@ -52,6 +76,10 @@
         </section>
       </section>
     </main>
+
+    <script>
+      new Splide(".splide").mount();
+    </script>
     <footer>
       <h2>Kontakt</h2>
       <p>Hamnstigen 11 8328 9 ‘ Hamnen 0863-0374950</p>
