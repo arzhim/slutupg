@@ -30,20 +30,34 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <img src="img/portratt.jpg" alt="" />
+                <div class="splide__slide__container">
+                  <img
+                    class="my-very-nice-splide-img"
+                    src="img/yoga.jpeg"
+                    alt=""
+                  />
+                </div>
+                Hej hopp allt är bra
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container">
+                  <img
+                    class="my-very-nice-splide-img"
+                    src="img/wrist-rehab.jpeg"
+                    alt=""
+                  />
+                </div>
+                Hej hopp allt är bra
+              </li>
+              <!-- <li class="splide__slide">
+                <img src="img/pregnant.jpg" alt="" />
               </li>
               <li class="splide__slide">
                 <img src="img/kvinnohälsa.jpg" alt="" />
               </li>
               <li class="splide__slide">
-                <img src="img/portratt.jpg" alt="" />
-              </li>
-              <li class="splide__slide">
-                <img src="img/kvinnohälsa.jpg" alt="" />
-              </li>
-              <li class="splide__slide">
-                <img src="img/portratt.jpg" alt="" />
-              </li>
+                <img src="" alt="" />
+              </li> -->
             </ul>
           </div>
         </section>
@@ -101,7 +115,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
       </main>
 
       <script>
-        new Splide(".splide").mount();
+        new Splide(".splide", {
+          rewind: (Boolean = true),
+          // width: "200px",
+          // autoWidth: true,
+        }).mount();
       </script>
     </div>
   </body>
