@@ -49,15 +49,24 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
                 </div>
                 Hej hopp allt är bra
               </li>
-              <!-- <li class="splide__slide">
-                <img src="img/pregnant.jpg" alt="" />
-              </li>
               <li class="splide__slide">
-                <img src="img/kvinnohälsa.jpg" alt="" />
+                <div class="splide__slide__container">
+                  <img
+                    class="my-very-nice-splide-img"
+                    src="img/pregnant.jpeg"
+                    alt=""
+                  />
+                </div>
               </li>
-              <li class="splide__slide">
-                <img src="" alt="" />
-              </li> -->
+              <li>
+                <div class="splide__slide__container">
+                  <img
+                    class="my-very-nice-splide-img"
+                    src="img/pregnant.jpeg"
+                    alt=""
+                  />
+                </div>
+              </li>
             </ul>
           </div>
         </section>
@@ -77,39 +86,44 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
               löpning.
             </p>
           </section>
-          <section class="sport-rehab">
+          <section class="sport-rehab" class="rehab">
             <img src="img/portratt.jpg" alt="" />
-            <h2>Sport Rehab</h2>
-            <p>
-              Jag hjälper dig att bygga upp din muskulatur efter skada så att du
-              på sikt säkert kan återgå till att idrotta som du gjort tidiare.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id,
-              aliquid veniam dolore magni autem quas facere placeat laudantium
-              similique assumenda laboriosam nemo praesentium non architecto
-              sequi cum fugit amet excepturi? Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Earum tempore dolorem voluptas
-              impedit? Veritatis impedit nam assumenda beatae eum debitis natus
-              minus vitae. Rem vitae ratione voluptas sapiente quae illum.
-            </p>
-            <button>BOKA</button>
+            <section class="rehab-info">
+              <h2>Sport Rehab</h2>
+              <p>
+                Jag hjälper dig att bygga upp din muskulatur efter skada så att
+                du på sikt säkert kan återgå till att idrotta som du gjort
+                tidiare. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Id, aliquid veniam dolore magni autem quas facere placeat
+                laudantium similique assumenda laboriosam nemo praesentium non
+                architecto sequi cum fugit amet excepturi? Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Earum tempore dolorem
+                voluptas impedit? Veritatis impedit nam assumenda beatae eum
+                debitis natus minus vitae. Rem vitae ratione voluptas sapiente
+                quae illum.
+              </p>
+              <button class="button">BOKA</button>
+            </section>
           </section>
-          <section class="kvinnor">
+          <section class="kvinnor" class="rehab">
             <img src="img/portratt.jpg" alt="pregnant-woman" />
-            <h2>Kvinnohälsa</h2>
-            <p>
-              Vill du ha stöd med din träning under och efter din graviditet.
-              Att säkert arbeta utan att belasta din kropp för mycket och låta
-              din bäckenbotten få det stöd den behöver. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Vitae mollitia, eaque
-              praesentium atque temporibus pariatur cumque eligendi quasi,
-              reiciendis nulla illum eum laborum ad odit asperiores sint
-              voluptatem debitis officia! Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Alias dolorem laborum accusamus
-              quasi facilis perferendis quibusdam ut, voluptate nihil. Quod
-              accusamus voluptatem blanditiis ea laudantium. Nesciunt dolore
-              vero accusantium at.
-            </p>
-            <button>BOKA</button>
+            <section class="rehab-info">
+              <h2>Kvinnohälsa</h2>
+              <p>
+                Vill du ha stöd med din träning under och efter din graviditet.
+                Att säkert arbeta utan att belasta din kropp för mycket och låta
+                din bäckenbotten få det stöd den behöver. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Vitae mollitia, eaque
+                praesentium atque temporibus pariatur cumque eligendi quasi,
+                reiciendis nulla illum eum laborum ad odit asperiores sint
+                voluptatem debitis officia! Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Alias dolorem laborum accusamus
+                quasi facilis perferendis quibusdam ut, voluptate nihil. Quod
+                accusamus voluptatem blanditiis ea laudantium. Nesciunt dolore
+                vero accusantium at.
+              </p>
+              <button class="button">BOKA</button>
+            </section>
           </section>
         </section>
       </main>
@@ -122,9 +136,22 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
         }).mount();
       </script>
     </div>
+    <footer>
+      <section class="contact"><h2>Kontakt</h2></section>
+      <section class="contact-info">
+        <section class="adress">
+          <h3>Adress</h3>
+          <ul>
+            <li>Hamnstigen 11 8328 9 ‘ Hamnen</li>
+          </ul>
+        </section>
+        <section class="telefon">
+          <h3>Telefon</h3>
+          <ul>
+            <li>0863-0374950</li>
+          </ul>
+        </section>
+      </section>
+    </footer>
   </body>
-  <footer>
-    <h2>Kontakt</h2>
-    <p>Hamnstigen 11 8328 9 ‘ Hamnen 0863-0374950</p>
-  </footer>
 </html>

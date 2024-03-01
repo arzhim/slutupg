@@ -56,6 +56,9 @@ main {
   padding: 20px;
   margin: 10px;
   width: 300px;
+  box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
+  -webkit-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
+  -moz-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
 }
 
 .sport-rehab {
@@ -63,6 +66,9 @@ main {
   padding: 20px;
   margin: 10px;
   width: 300px;
+  box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
+  -webkit-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
+  -moz-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
 }
 
 .kvinnor {
@@ -70,8 +76,23 @@ main {
   padding: 20px;
   margin: 10px;
   width: 300px;
+  box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
+  -webkit-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
+  -moz-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
 }
-
+.rehab-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button {
+  width: 150px;
+  height: 43px;
+  border-radius: 20px;
+  background-color: #99a880;
+  color: white;
+  border: none;
+}
 footer {
   grid-row: 8 span 9;
   grid-column: 1 / span 7;
@@ -80,6 +101,23 @@ footer {
   color: white;
 }
 
+.contact-info {
+  display: flex;
+  padding-bottom: 20px;
+}
+.contact h2 {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.contact-info .adress h3 {
+  padding-left: 36px;
+}
+.contact-info .telefon h3 {
+  padding-left: 36px;
+}
+li {
+  list-style-type: none;
+}
 .my-very-nice-splide-img {
   width: 100%;
 }
