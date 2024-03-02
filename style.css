@@ -24,7 +24,9 @@ header {
 .nav {
   display: flex;
 }
-
+.nav a {
+  text-decoration: none;
+}
 header .logo {
   width: 250px;
   padding: 10px;
@@ -50,41 +52,30 @@ main {
   justify-content: space-around;
 }
 .info img {
-  width: 300px;
-}
-.om-mig {
-  border-radius: 3px;
-  padding: 20px;
-  margin: 10px;
-  width: 300px;
-  box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
-  -webkit-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
-  -moz-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
+  height: 500px;
+  object-fit: cover;
+  object-position: 50% 25%;
 }
 
-.sport-rehab {
+.rehab {
   border-radius: 3px;
   padding: 20px;
   margin: 10px;
-  width: 300px;
+  min-width: 300px;
+  max-width: 700px;
   box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
   -webkit-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
   -moz-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
-.kvinnor {
-  border-radius: 3px;
-  padding: 20px;
-  margin: 10px;
-  width: 300px;
-  box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
-  -webkit-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
-  -moz-box-shadow: -1px 8px 19px -6px rgba(41, 38, 38, 0.75);
-}
 .rehab-info {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 .button {
   width: 150px;
@@ -93,7 +84,9 @@ main {
   background-color: #99a880;
   color: white;
   border: none;
+  align-self: flex-end;
 }
+
 footer {
   grid-row: 8 span 9;
   grid-column: 1 / span 7;
