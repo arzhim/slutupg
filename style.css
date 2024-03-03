@@ -14,7 +14,7 @@ body {
 header {
   grid-row: 1;
   grid-column: 1 / span 7;
-
+  margin-bottom: 10px;
   background-color: #99a880;
   border-radius: 3px;
   display: flex;
