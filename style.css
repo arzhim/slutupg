@@ -24,8 +24,9 @@ header {
 .nav {
   display: flex;
 }
-.nav a {
+a {
   text-decoration: none;
+  color: white;
 }
 header .logo {
   width: 250px;
@@ -82,7 +83,7 @@ main {
   height: 43px;
   border-radius: 20px;
   background-color: #99a880;
-  color: white;
+
   border: none;
   align-self: flex-end;
 }
